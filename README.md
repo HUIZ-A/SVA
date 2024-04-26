@@ -1,4 +1,18 @@
-# SVA
+# SVA: Semantically consistent Video-to-Audio Generation
+paper: [[2404.16305\] Semantically consistent Video-to-Audio Generation using Multimodal Language Large Model (arxiv.org)](https://arxiv.org/abs/2404.16305)
+
+project: [Semantically consistent Video-to-Audio Generation using Multimodal Language Large Model (huiz-a.github.io)](https://huiz-a.github.io/audio4video.github.io/)
+
+
+
+SVA is a light and efficient framework for video-to-audio generation, comprising the following key steps:.
+
+- Utilizing MLLM for comprehending video content and generating audio and music schemes.
+- Employing generation models to produce audio or music in line with the given schemes.
+- Incorporating fast noise detection, noise reduction, and mixing methods to generate high-quality videos with audio.
+
+
+
 ## Getting started
 
 ### Installation
@@ -18,6 +32,10 @@ Git clone our repository, using the python environment you have created during t
 ```
 git clone https://github.com/HUIZ-A/SVA.git
 ```
+
+**4. API Keys**
+
+The MLLM **Gemini-Pro-1.0** by Google is used for video understanding and scheme generation. Before running the codes, make sure you own the API Key and input it in the `pipeline.py` line 18.
 
 ### Launching
 
